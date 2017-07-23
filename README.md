@@ -13,7 +13,7 @@ QR code scan feature to display Product Detail is also integrated.
 
 #Screenshots
 
-![Screenshot] (category.png)
+![Screenshot] (SephoraTest2017_HappyShop/Screenshots/category.png)
 
 
 
