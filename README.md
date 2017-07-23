@@ -16,9 +16,7 @@ QR code scan feature to display Product Detail is also integrated.
 
 ![Screenshot](https://user-images.githubusercontent.com/16608829/28503644-69a8cf4c-7028-11e7-958f-8ce2356d88ec.png)
 
-![Screen shot](https://user-images.githubusercontent.com/16608829/28503647-6c7a2d7e-7028-11e7-8dd3-ce1607a2e3e5.png)
 
-![Screenshot](https://user-images.githubusercontent.com/16608829/28503648-6c87b688-7028-11e7-8436-5bcc585d3082.png)
 
 
 
