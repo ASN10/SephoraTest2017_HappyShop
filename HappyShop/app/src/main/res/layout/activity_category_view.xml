@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_bg"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        />
+
+    <com.paging.gridview.PagingGridView
+        android:id="@id/paging_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/grid_vertical_spacing"
+        android:horizontalSpacing="@dimen/grid_horizontal_spacing"
+        />
+    
+    
+    <TextView
+        android:id="@id/empty_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:text="@string/empty_text"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="listitem_drawer_layout" type="id"></item>
+    <item name="categories_listview"   type ="id"></item>
+    <item name="category_frame_layout" type="id"></item>
+    <item name="category_title_textview" type="id"></item>
+    <item name="category_imageview" type="id"></item>
+    <item name="product_price_textview" type="id"></item>
+    <item name="product_description_textview" type="id"></item>
+    <item name="add_to_cart_button" type="id"></item>
+    <item name="empty_textview" type="id"></item>
+    <item name="cart_imageview" type="id"></item>
+    <item name="badge_textview" type="id"></item>
+    <item name="toolbar" type="id"></item>
+    <item name="paging_grid_view" type="id"></item>
+    <item name="drawer_layout" type="id"></item>
+    <item name="frame_container" type="id"></item>
+    <item name="list_slidermenu" type="id"></item>
+    <item name="product_imageview" type="id"></item>
+    <item name="product_name_textview" type="id"></item>
+    <item name="icon" type="id"></item>
+    <item name="title" type="id"></item>
+    <item name="clear_cart_button" type="id"></item>
+    <item name="action_cart" type="id"></item>
+    <item name="under_sale_textview" type="id"></item>
+    <item name="action_scan" type="id"></item>
+
+
+
+</resources>

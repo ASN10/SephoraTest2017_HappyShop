@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Happy Shop</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cart">Cart</string>
+    <string name="category_title">Category</string>
+    <string name="make_up_title">Makeup</string>
+    <string name="skin_care_title">Skin Care</string>
+    <string name="hair_title">Hair</string>
+    <string name="tools_title">Tools &amp; Brushes</string>
+    <string name="nails_title">Nails</string>
+    <string name="bath_body">Bath &amp; Body</string>
+    <string name="openDrawer">Menu open</string>
+    <string name="closeDrawer">Menu closed</string>
+    <string name="header_textview">SEPHORA</string>
+    <string name="action_scan">scan</string>
+
+
+    <string-array name="category_keys">
+        <item>Makeup</item>
+        <item>Skincare</item>
+        <item>Hair</item>
+        <item>Tools</item>
+        <item>Nails</item>
+        <item>Bath \u0026 Body</item>
+
+    </string-array>
+
+    <string name="network_alert">Please check your internet connection and try again later.</string>
+    <string name="service_error">Oops!Server error. Please try again later.</string>
+    <string name="alert_ok">Ok</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="alert_retry">Retry</string>
+
+    <string name="product_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisi tellus,
+        tempus ac eleifend vel, sodales quis justo. Cras volutpat consequat risus. Maecenas aliquet orci a scelerisque
+        molestie. Curabitur ultricies lobortis ornare. Maecenas leo massa, maximus nec congue et, ullamcorper ut tortor.
+        Nunc turpis nunc, interdum a tellus vel, elementum convallis dui. Praesent mattis efficitur nunc, sed varius ex posuere tempus. Donec quis ex ornare odio consectetur feugiat. Nunc lobortis gravida mauris, imperdiet blandit elit dictum id. Cras bibendum feugiat lectus eu laoreet. Phasellus auctor gravida justo ut sodales.
+        Vestibulum auctor malesuada tellus vel pretium. Morbi quis consectetur massa, vitae sollicitudin dui. </string>
+
+    <string name="empty_text">No items to display</string>
+    <string name="add_to_cart_button">Add to cart</string>
+    <string name="clear_cart_button">Clear Cart</string>
+    <string name="product_not_found">Product not found</string>
+
+
+    <string name="item_added_to_cart">Item added to cart</string>
+    <string name="loading">Loading...</string>
+    <string name="alert_title">Alert!</string>
+    <string name="cart_list_empty_message">Cart is already empty!!</string>
+
+    <string name="on_sale">ON SALE</string>
+
+    <string name="cart_empty_textview">Your shopping cart is empty</string>
+
+
+
+</resources>

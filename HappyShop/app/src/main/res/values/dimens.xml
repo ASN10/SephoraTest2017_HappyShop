@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--navigation drawer-->
+    <dimen name="header_height">150dp</dimen>
+    <dimen name="category_title_image_dimension">30dp</dimen>
+    <dimen name="category_image_margin">12dp</dimen>
+    <dimen name="category_items_padding">20dp</dimen>
+
+    <!--home fragment-->
+    <dimen name="home_list_divider_height">0.1dp</dimen>
+    <dimen name="category_title_padding">30dp</dimen>
+    <dimen name="category_image_height">200dp</dimen>
+
+
+    <!--Text size-->
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_badge">8sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+
+    <!--product detail-->
+    <dimen name="product_detail_image_height">250dp</dimen>
+    <dimen name="margin_left">20dp</dimen>
+    <dimen name="margin_right">10dp</dimen>
+    <dimen name="imageview_margin_bottom">4dp</dimen>
+    <dimen name="product_name_margin_top">2dp</dimen>
+    <dimen name="add_cart_margin_top">5dp</dimen>
+
+
+    <!--cart icon-->
+    <dimen name="badge_textview_bg_dimension">15dp</dimen>
+    <dimen name="cart_margin_right">2dp</dimen>
+
+    <!--product_list_grid-->
+    <dimen name="grid_horizontal_spacing">2dp</dimen>
+    <dimen name="grid_vertical_spacing">1dp</dimen>
+
+    <!--product_list_grid_item-->
+    <dimen name="grid_item_image_width">250dp</dimen>
+    <dimen name="grid_item_image_height">150dp</dimen>
+    <dimen name="grid_image_margin_bottom">4dp</dimen>
+    <dimen name="grid_title_width">150dp</dimen>
+    <dimen name="grid_item_margin">2dp</dimen>
+    <dimen name="grid_price_width">50dp</dimen>
+
+    <!--landing activity-->
+    <dimen name="divider_height">1dp</dimen>
+</resources>

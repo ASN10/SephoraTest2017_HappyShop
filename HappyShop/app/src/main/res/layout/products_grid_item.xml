@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_background"
+    android:layout_marginBottom="3dp"
+    android:padding="3dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@id/category_imageview"
+        android:layout_width="@dimen/grid_item_image_width"
+        android:layout_height="@dimen/grid_item_image_height"
+        android:scaleType="centerCrop"
+        />
+
+
+    <TextView
+        android:id="@id/category_title_textview"
+        android:layout_width="@dimen/grid_title_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_imageview"
+        android:layout_marginTop="@dimen/grid_item_margin"
+        android:ellipsize="end"
+        android:layout_marginLeft="3dp"
+        android:lines="2"
+        android:paddingRight="@dimen/grid_item_margin"
+        android:text="Skin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_small" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_title_textview"
+        android:layout_marginLeft="3dp"
+
+        >
+
+        <TextView
+            android:id="@id/product_price_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/grid_item_margin"
+            android:lines="2"
+            android:text="Price:"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold"
+
+            />
+
+
+        <TextView
+            android:id="@id/under_sale_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_right"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_alignParentRight="true"
+            android:lines="1"
+            android:text="On Sale"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="visible"
+
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
