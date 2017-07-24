@@ -47,7 +47,7 @@ public class AppController extends Application {
             DisplayImageOptions options = new DisplayImageOptions.Builder().cacheInMemory(true)
                     .cacheOnDisk(true).resetViewBeforeLoading(true)
                     .showImageForEmptyUri(R.drawable.thumbnail)
-                    .showImageOnLoading(R.drawable.thumbnail)
+                    .showImageOnLoading(R.drawable.loading_image)
                     .showImageOnFail(R.drawable.thumbnail)
                     .imageScaleType(ImageScaleType.EXACTLY)
                     .build();

@@ -12,7 +12,6 @@
         android:id="@id/category_imageview"
         android:layout_width="@dimen/grid_item_image_width"
         android:layout_height="@dimen/grid_item_image_height"
-        android:scaleType="centerCrop"
         />
 
 
