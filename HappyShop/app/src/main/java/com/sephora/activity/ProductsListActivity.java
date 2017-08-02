@@ -290,6 +290,9 @@ public class ProductsListActivity extends AppCompatActivity implements ProductsS
     @Override
     public void onitemClicked(String filter) {
         products.clear();
-        makeServiceCall(filter, 1);
+        category = filter;
+        pageNumber = 1;
+        getSupportActionBar().setTitle(category);
+        makeServiceCall(category, pageNumber);
     }
 }
