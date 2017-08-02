@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -23,6 +24,7 @@ import com.sephora.adapter.ProductsListGridAdapter;
 import com.sephora.app.AppConstants;
 import com.sephora.app.Extras;
 import com.sephora.app.R;
+import com.sephora.fragments.FiltersDialogFragment;
 import com.sephora.model.Product;
 import com.sephora.model.ProductsList;
 import com.sephora.servicehelper.ProductsServiceHelper;
@@ -33,8 +35,16 @@ import java.util.ArrayList;
 
 /**
  * Created by nivedhitha.a on 26-Apr-16.
+ *
  */
-public class ProductsListActivity extends AppCompatActivity implements ProductsServiceHelper.ProductsServiceListener, AdapterView.OnItemClickListener {
+
+
+/**
+ * Adding menu on the actionbar
+ * Display List of Categories
+ * On User selection, make the API call and refresh the data source
+ */
+public class ProductsListActivity extends AppCompatActivity implements ProductsServiceHelper.ProductsServiceListener, AdapterView.OnItemClickListener, View.OnClickListener, FiltersDialogFragment.ItemClickListener {
 
     private PagingGridView pagingGridView;
     private int pageNumber = 1;
@@ -49,6 +59,7 @@ public class ProductsListActivity extends AppCompatActivity implements ProductsS
     public JSONObject jsonresponse;
     private String categoryName ="";
     private ProgressDialog dialog;
+    private Button filterButton;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -80,6 +91,8 @@ public class ProductsListActivity extends AppCompatActivity implements ProductsS
         } else {
             showSimpleAlert(getResources().getString(R.string.network_alert));
         }
+        filterButton = (Button) findViewById(R.id.filter_button);
+        filterButton.setOnClickListener(this);
         initPagination();
 
     }
@@ -265,4 +278,18 @@ public class ProductsListActivity extends AppCompatActivity implements ProductsS
     }
 
 
+    @Override
+    public void onClick(View v) {
+        if(v == filterButton){
+            FiltersDialogFragment fragment = new FiltersDialogFragment();
+            fragment.setItemClickListener(this);
+            fragment.show(getSupportFragmentManager(), "filter_dialog");
+        }
+    }
+
+    @Override
+    public void onitemClicked(String filter) {
+        products.clear();
+        makeServiceCall(filter, 1);
+    }
 }
