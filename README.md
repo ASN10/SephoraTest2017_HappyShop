@@ -14,7 +14,7 @@ QR code scan feature to display Product Detail is also integrated.
 
 
 
-![webp net-gifmaker](https://user-images.githubusercontent.com/16608829/28503771-3864e4aa-702a-11e7-9f34-891a8b258107.gif)
+![Screenshot](https://user-images.githubusercontent.com/16608829/28520332-ab376dce-708c-11e7-9ca9-017b00991501.gif)
 
 
 
